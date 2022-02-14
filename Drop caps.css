@@ -1,3 +1,4 @@
+ /* This change first letter bigger*/
 .para-text::first-letter{
   font-size: 2rem;
   float: left;
