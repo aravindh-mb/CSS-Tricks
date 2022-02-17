@@ -1,0 +1,6 @@
+/* To remove up down arrow bottons in number input field */
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0px;
+}
