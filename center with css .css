@@ -1,0 +1,12 @@
+  /* css classic */
+position:  absalute ;
+top: 50%
+left: 50%;
+transform: translate(-50%,-50%);
+  /* css grid */
+dispaly: flex;
+align-items: center;
+  /* css flexbox */
+dispaly: grid;
+justify-content:  center;
+place-items: center;
