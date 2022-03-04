@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle</title>
+</head>
+<body>
+    <div class="container">
+    <div class="toggle" onclick="this.classList.toggle('active')" >
+        <div class="inner-circle" ></div>
+    </div>
+</div>
+    <style>
+      .container{
+          
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 300px;
+      }
+        .toggle{
+            width: 80px;
+            height: 40px;
+            border-radius: 30px;
+            background-color: black;
+            padding: 5px;
+            transition:all 0.5s;
+            cursor: pointer;
+        }
+        .toggle > .inner-circle{
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 50%;
+            transition:all 0.5s;
+            outline: none;
+        }
+        .toggle.active{
+            background: #00acee;
+            outline: none;
+        }
+        .toggle.active > .inner-circle{
+            margin-left: 40px;
+        }
+    </style>
+</body>
+</html>
